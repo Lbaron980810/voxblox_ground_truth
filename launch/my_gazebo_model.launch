@@ -12,7 +12,8 @@
     <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find voxblox_ground_truth)/sample_data/gazebo/models"/>
 
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
-      <arg name="world_name" value="$(find voxblox_ground_truth)/sample_data/gazebo/worlds/burning_building_rubble.world"/>
+      <arg name="world_name" value="$(find voxblox_ground_truth)/sample_data/gazebo/worlds/omni_hex_1116_2.world"/>
+      <!-- <arg name="world_name" value="$(find voxblox_ground_truth)/sample_data/gazebo/worlds/burning_building_rubble.world"/> -->
       <!--<arg name="debug" value="true"/>-->
       <!--<arg name="paused" value="true"/>-->
     </include>
